@@ -31,7 +31,7 @@ A email designated to receive messages from the server. Examples:
 	define('SYSTEM_EMAIL', 'info@somervilleunion.net'); 
 
 # Default DB name for this app
-	define('DB_NAME', '02143_somervilleunion_net'); 
+	define('DB_NAME', 'somervil_02143_somervilleunion_net'); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
