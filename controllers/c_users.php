@@ -70,7 +70,7 @@ class users_controller extends base_controller {
     
 
         // Do the insert
-        //DB::instance(DB_NAME)->insert('users_users', $data);
+       DB::instance(DB_NAME)->insert('users_users', $data);
 
         // log user in using the token we generated
         setcookie("token", $_POST['token'], strtotime('+1 year'), '/');
