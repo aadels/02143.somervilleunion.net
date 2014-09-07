@@ -1,6 +1,4 @@
-<p><strong>
-	Welcome to 02143.somervilleunion.net <br>
-	Stay tuned for updates!
-</strong></p>
+<a href='/'><img src="/img/cover.jpg" id="cover" alt="picture of Prospect Hill monumnet in Union Square, Somerville, MA
+	"></a>
 
  
