@@ -14,11 +14,11 @@ If you want a different default time format for this app, set it below
 */
 
 # What is the name of this app?
-	define('APP_NAME', 'Somerville Union');  
+	define('APP_NAME', 'Sample App');  
 
 # When email is sent out from the server, where should it come from?
 # Ideally, this should match the domain name
-	define('APP_EMAIL', 'info@somervilleunion.net'); 
+	define('APP_EMAIL', 'webmaster@sample-app.com'); 
 
 /* 
 A email designated to receive messages from the server. Examples:
@@ -28,10 +28,10 @@ A email designated to receive messages from the server. Examples:
  	
  	Some might want this to be the same as the APP_EMAIL, others might want to create a designated gmail address for it
 */ 	
-	define('SYSTEM_EMAIL', 'ann@somervilleunion.net'); 
+	define('SYSTEM_EMAIL', 'webmaster@myapp.com'); 
 
 # Default DB name for this app
-	define('DB_NAME', 'somervil_02143_somervilleunion_net'); 
+	define('DB_NAME', '02143_somervilleunion_net'); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
