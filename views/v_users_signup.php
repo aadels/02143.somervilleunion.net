@@ -28,7 +28,7 @@
     <?php if(isset($error) && $error == 'email-exists'): ?>
         <div class='error'>
             There is already an account associated with this email. 
-            <a href="/users/login">Login</a>
+        
         </div>
     <?php endif; ?>
 
