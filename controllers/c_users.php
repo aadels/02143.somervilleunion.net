@@ -61,16 +61,6 @@ class users_controller extends base_controller {
         //Insert user into database
         $user_id = DB::instance(DB_NAME)->insert_row('users', $_POST);
 
-        // all users follow their own madlibs by default
-        $data = Array(
-            "created" => Time::now(),
-            "user_id" => $user_id,
-            "user_id_followed" => $user_id
-            );
-    
-
-        // Do the insert
-       DB::instance(DB_NAME)->insert('users_users', $data);
 
         // log user in using the token we generated
         setcookie("token", $_POST['token'], strtotime('+1 year'), '/');
