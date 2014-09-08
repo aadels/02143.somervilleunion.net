@@ -84,4 +84,18 @@ class users_controller extends base_controller {
         
            
     }
+
+   //public function unsubscribe($error = NULL) {
+
+        # Setup view
+        //$this->template->content = View::instance('v_users_unsubscribe');
+        //$this->template->title   = "Unsubscribe";
+
+        //Pass data to the view
+        //$this->template->content->error = $error;
+        
+        //Render template
+        //echo $this->template;
+    //}
+
 }
