@@ -15,6 +15,9 @@
 	    <link type="text/css" rel="stylesheet" href="/css/madlib.css">  
 	    <!-- Bootstrap -->
 	    <link href="/css/bootstrap.min.css" rel="stylesheet">
+	    <link type="image/x-icon" rel="shortcut icon" href="/img/favicon.ico">
+
+Read more : http://www.ehow.com/how_7318380_install-favicon-website.html
 				
 		<!-- Controller Specific JS/CSS -->
 		<?php if(isset($client_files_head)) echo $client_files_head; ?>
